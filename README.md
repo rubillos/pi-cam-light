@@ -13,7 +13,7 @@ What things you need to install the software and how to install them
 ```
 Give examples
 ```
-![Component Description](docs/circuit-diagram)
+![Component Description](https://github.com/rubillos/pi-cam-light/docs/circuit-diagram)
 
 ### Installing
 
