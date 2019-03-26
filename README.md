@@ -1,88 +1,32 @@
-# Project Title
+# NeoPixel Lighting Controller for Pi Cam Studio
 
-One Paragraph of project description goes here
+Pi Cam Studio is a set of 3D models for a Raspberry Pi holder with a Pi camera holder and two LED light stands for use with OctoPrint. This is the code for an ATTiny85 that goes into each lighting can to generate the serial bitstream to drive the NeoPixel rings and strips. The lights fade up and down based on a control pin. A gamma curve and dithering are used to give a very slow smooth fade.
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+## Component Layout
 
-What things you need to install the software and how to install them
+![Component Layout](https://github.com/rubillos/pi-cam-light/blob/master/docs/component-layout.png?raw=true)
 
-```
-Give examples
-```
-![Component Description](https://github.com/rubillos/pi-cam-light/blob/master/docs/component-layout.png?raw=true)
+## Circuit Diagram
 
-### Installing
+![Circuit Diagram](https://github.com/rubillos/pi-cam-light/blob/master/docs/circuit-diagram.png?raw=true)
 
-A step by step series of examples that tell you how to get a development env running
+## Components
 
-Say what the step will be
+ATTiny85
+8 pin socket
+7 x 8 hole perf board
+3 x 100Ω resistor
+1 x [12 NeoPixel ring](https://www.adafruit.com/product/1643)
+1 x [7 NeoPixel ring](https://www.adafruit.com/product/2226)
+2 x [3 pin terminal block](https://www.adafruit.com/product/2136)
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+The second light uses a third LED strips
+1 x [8 NeoPixel strip](https://www.adafruit.com/product/1426)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
