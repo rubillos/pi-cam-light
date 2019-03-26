@@ -17,15 +17,15 @@ These instructions will get you a copy of the project up and running on your loc
 ## Components
 
 ATTiny85
-8 pin socket
-7 x 8 hole perf board
-3 x 100Ω resistor
-1 x [12 NeoPixel ring](https://www.adafruit.com/product/1643)
-1 x [7 NeoPixel ring](https://www.adafruit.com/product/2226)
-2 x [3 pin terminal block](https://www.adafruit.com/product/2136)
+- 8 pin socket
+- 7 x 8 hole perf board
+- 3 x 100Ω resistor
+- 1 x [12 NeoPixel ring](https://www.adafruit.com/product/1643)
+- 1 x [7 NeoPixel ring](https://www.adafruit.com/product/2226)
+- 2 x [3 pin terminal block](https://www.adafruit.com/product/2136)
 
 The second light uses a third LED strips
-1 x [8 NeoPixel strip](https://www.adafruit.com/product/1426)
+- 1 x [8 NeoPixel strip](https://www.adafruit.com/product/1426)
 
 ## License
 
