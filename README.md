@@ -16,8 +16,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Components
 
-ATTiny85
-- 8 pin socket
+- 1 x [ATTiny85](https://www.amazon.com/gp/product/B00PT4XU04)
+- 1 x 8 pin socket
 - 7 x 8 hole perf board
 - 3 x 100Ω resistor
 - 1 x [12 NeoPixel ring](https://www.adafruit.com/product/1643)
