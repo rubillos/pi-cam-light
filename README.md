@@ -1,6 +1,6 @@
 # NeoPixel Lighting Controller for Pi Cam Studio
 
-Pi Cam Studio is a set of 3D models for a Raspberry Pi holder with a Pi camera holder and two LED light stands for use with OctoPrint. This is the code for an ATTiny85 that goes into each lighting can to generate the serial bitstream to drive the NeoPixel rings and strips. The lights fade up and down based on a control pin. A gamma curve and dithering are used to give a very slow smooth fade.
+Pi Cam Studio is a set of 3D models for a Raspberry Pi holder with a Pi camera holder and two LED light stands for use with OctoPrint. This is the code for an ATTiny85 that goes into each lighting can to generate the serial bitstream to drive the NeoPixel rings and strips. The lights fade up and down based on a control pin. A gamma curve and dithering are used to give a very slow smooth fade. Adafruit Neopixel strips and rings are used, the warm-white variants give a very nice color temperature.
 
 ## Getting Started
 
@@ -8,11 +8,11 @@ This project is built using PlatformIO on Atom.
 
 ## Component Layout
 
-![Component Layout](https://github.com/rubillos/pi-cam-light/blob/master/docs/component-layout.png?raw=true)
+![Component Layout](docs/component-layout.png)
 
 ## Circuit Diagram
 
-![Circuit Diagram](https://github.com/rubillos/pi-cam-light/blob/master/docs/circuit-diagram.png?raw=true)
+![Circuit Diagram](docs/circuit-diagram.png)
 
 ## Components
 
